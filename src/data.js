@@ -1,6 +1,6 @@
 export const LABELS = [
-  "Initial Investment",
-  "Annual Investment",
-  "Expected Return",
-  "Duration",
+  { key: "initialInvestment", label: "Initial Investment" },
+  { key: "annualInvestment", label: "Annual Investment" },
+  { key: "expectedReturn", label: "Expected Return (%)" },
+  { key: "duration", label: "Duration (years)" },
 ];
