@@ -1,5 +1,15 @@
+import LabelForm from "./components/LabelForm";
+import Header from "./components/Header";
+import Icon from "./assets/investment-calculator-logo.png";
+import { LABELS } from "./data";
+
 function App() {
-  return <h1>React Investment Calculator</h1>;
+  return (
+    <div>
+      <Header title="Investment Calculator" icon={Icon} />
+      <LabelForm labels={LABELS} />
+    </div>
+  );
 }
 
 export default App;
